@@ -1,0 +1,80 @@
+
+.container {
+    display: grid;
+    grid-template: 
+    'logo logo logo logo'
+    'serviço1 serviço1 serviço2 serviço2'
+    'serviço3 serviço3 serviço4 serviço4'
+    'serviço5 serviço5 serviço5 serviço5'
+    'home home home home';
+     font-family: 'Poppins', sans-serif;
+     background-color: rgb(73, 77, 81);
+}
+.logo {
+    grid-area: logo;
+}
+.link {
+    grid-area: home;
+    color: black;
+    text-align: center;
+}
+.serviço1  {
+    grid-area: serviço1 ;
+}
+
+.serviço2 {
+    grid-area: serviço2 ;
+}
+.serviço3 {
+    grid-area: serviço3 ;
+}
+.serviço4 {
+    grid-area: serviço4 ;
+}
+.serviço5 {
+    grid-area: serviço5 ;
+}
+.titulo {
+    grid-area: titulo;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2.5px 1px yellow;
+    margin: 30px 420px;
+}
+.serviços {
+    display: grid;
+    grid-template-areas: 
+    'serviço1 serviço1 serviço2 serviço2'
+    'serviço3 serviço3 serviço4 serviço4'
+    '. serviço5 serviço5 .';
+    
+}
+
+article {
+    margin: 30px 90px;
+    background-color: rgb(146, 149, 151);
+    border: solid 3px;
+}
+
+p {
+    text-align: justify;
+    border: solid 3px;
+    margin: 30px 15px;
+    background-color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2 {
+    text-align: center;
+    background-color: yellow;
+    border: solid 3px;
+    margin: 20px 90px;
+}
+nav {
+    border: solid 3px;
+    margin: 30px 30px ;
+    background-color: yellow;
+}
+
+a:hover {
+    color: yellow;
+}
